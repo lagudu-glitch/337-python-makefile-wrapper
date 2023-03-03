@@ -1,6 +1,6 @@
-#337 MAKEFILE WARPER<br>
+# 337 MAKEFILE WARPER<br>
 This script checks for latches and timing arcs in design in mapped versions of compilation.
-##Installation<br>
+## Installation<br>
 1. Download and place the script in the same directory as the makefile.
 2. Convert the python file to an executable using the following command.
 ```

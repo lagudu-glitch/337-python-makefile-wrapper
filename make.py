@@ -17,7 +17,7 @@ def check_arc_latch (fname):
 	with open(fname, 'r') as fp:
 		for l_no, line in enumerate (fp):
 			if 'latch' in line:
-				print(bcolors.FAIL + " !!!! LATCHES IN DESIGN !!!!" + bcolors.ENDC)			
+				print(bcolors.FAIL + " !!!! LATCHES IN DESIGN !!!! " + line.split()[1] + " is a latch" + bcolors.ENDC)
 			elif 'timing arc' in line:
 				print(bcolors.FAIL + " !!!! TIMING ARC IN DESIGN !!!!" + bcolors.ENDC)
 
